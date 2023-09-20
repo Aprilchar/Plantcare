@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+
+	<style type="text/css">	
+		
+		@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Calistoga&family=Montserrat&display=swap');
+	
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+	
+	/*+++++WhiteSpace Styles Here+++++*/
+		
+		body{
+			background-color: #234032;
+			font-family: montserrat;
+			
+		}
+	
+		article>p{
+			line-height: 160%;
+		}
+		
+		h1 h2 h3{
+			font-family: cabin;
+			letter-spacing: .05em;
+		}
+		
+		
+		h1{
+			font-size: 2em;
+			font-family: calistoga;
+			color: #8A9690;
+		}
+		
+		h2{
+			font-size: 1.35em;
+			font-weight: bold;
+			
+			
+		}
+		
+			article>h2{
+			padding: 2%;
+		}
+		
+		
+		
+		header{
+			background-color: #234032;
+			padding: 3%;
+		
+		}
+		
+		header>h2{
+			font-family: playfair;
+			font-weight: lighter;
+			margin: -6px 0 0 25px;
+			color: #e6eae8;
+		} 
+		
+		#wrapper{
+			width: 80.56%;
+			margin: 0 auto;
+			background-color: #8A9690;
+		}
+	
+	
+		
+		nav ul{
+			width: 85.5757575757%;
+			
+			margin: 0 auto;
+			
+		}
+		
+		nav ul li{
+			display: inline;
+			margin-right: 2%;
+		}
+		
+		nav{
+			
+			margin: 0 auto;
+			padding: 1% 0;
+			
+		}
+		
+		#feature{
+			width: 81.3257575757575%;
+			margin: 3% auto 4% auto;
+			padding: 1.5% 2.25% 3.5% 2.25%;
+			background-color: #e6eae8;
+			overflow: hidden;
+	
+		}
+		
+		.feature-img{
+			float: left;
+			width: 40%;
+		}
+		
+		.feature-text{
+			float: left;
+			width: 58%;
+			margin-left: 2%;
+			font-family: cabin;
+			font-size: 1.2em;
+			line-height: 120%;
+			letter-spacing: .05em;
+		}
+		
+		#main-content{
+			width: 59.3939393939%;
+			float: left;
+			margin: 2%;
+		}
+		
+		.main-figure{
+			width: 32.50478;
+			margin-right: 09.56022944%;
+			float: right;
+		}
+		
+		#sidebar{
+			width: 32.6060606060%;
+			float: left;
+			margin: 2%;
+		}
+		
+		.side-figure{
+			width: 88.0794701986755%;
+			margin: 0 auto;
+			padding-bottom: 2%;
+		}
+		
+		figure img{
+			max-width: 100%;
+		}
+		
+		figure{
+			
+		}
+		
+		footer{
+			clear: left;
+			padding: 2%;
+		}
+		
+		footer p{
+			margin: 0;
+		}
+		
+		/*type styles*/
+		
+		#feature h2{
+			margin-bottom: 4%;
+			
+		}
+		
+		p{
+			margin: 2.5% 0;
+			
+		}
+		
+		figcaption{
+			font-family: cabin;
+			margin: 3%;
+		}
+		
+		#sidebar figcaption{
+			margin-bottom: 3%;
+		}
+		
+		cite {
+		  font-style: italic;
+		}
+		
+		a{
+			color: #234032;
+			
+		}
+		
+	/*nav styles here*/		
+		#navlist
+	{
+	margin: 0;
+	padding: 0 0 20px 10px;
+	border-bottom: 1px solid #000;
+	background-color: #234032;
+	}
+
+	#navlist ul, #navlist li
+	{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+	#navlist a:link, #navlist a:visited
+	{
+	float: left;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 4px 10px;
+	text-decoration: none;
+	color: #999;
+	}
+
+	#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+	{
+	border-bottom: 4px solid #000;
+	padding-bottom: 2px;
+	background: transparent;
+	color: #e6eae8;
+	}
+
+	#navlist a:hover { color: #e6eae8; }
+		
+	</style>	
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>House Plants</h1>
+				<h2>a guide on caring for your plants</h2>
+		</header>
+	
+		
+		<div id="navcontainer">
+	<ul id="navlist">
+	<li id="active"><a href="index.html" id="current">Home</a></li>
+	<li><a href="page2.html">Light</a></li>
+	<li><a href="page3.html">Watering</a></li>
+	<li><a href="page4.html">Fertilizer</a></li>
+	<li><a href="page5.html">Cleaning</a></li>
+	</ul>
+		</div><!--close nav container div-->
+		
+			<figure>
+			<img src="../images/photo-1604762524889-3e2fcc145683.avif" />
+		</figure>
+		
+		<div id="main-content">
+			<article>
+				<h2>Caring for your new plant</h2>
+				<figure class="main-figure">
+					<img src="../images/plants3.jpeg">
+					<figcaption>
+						<p>caring for your plants</p>
+					</figcaption>
+				</figure>
+			
+				<p>Are the plants you love the ones you can have? Our #1 rule of (green) thumb is to determine the amount of natural lightyour space receives, and to choose your plant accordingly. If you’re not sure just by looking, start by figuring out which direction your windows face.</p>
+				<p>Generally speaking, south-facing windows give bright light, east and west-facing windows give moderate light, and north-facing windows give low light. If there’s something outside your window—for example, a large tree or building—that could obstruct sunlight, make sure to take that into consideration, too. Most houseplants prefer bright, indirect sunlight, but many can tolerate lower light levels (like low light tolerant snake plants and ZZ plants).</p>
+				<p>If the sun is intense through your windows, you may want to add a sheer curtain to diffuse the light. Cacti and some succulents like aloe can handle brighter, direct sunlight. You don’t want to overexpose or underexpose any plant so keep an eye on them if they're in very bright or very low light.
+				</p>
+				<p>If you’ve got more time, you can try a few attention-loving air plants, orchids, or ferns. Like a mist for the face, an extra spritz of filtered water daily between waterings keeps humidity levels nice and balanced for these delicate plants.</p>
+				
+			
+				<p><cite>Our Top 10 Plant Care Tips</cite> by The Sill.</p>
+				<a href="https://www.thesill.com/blog/top-ten-plant-care-tips" >More on care tips here.</a>
+				
+			</article>
+				
+			
+		</div>
+		
+		<div id="sidebar">
+			<article>
+			<h2>Plants and your schedule</h2>
+			<figure class="side-figure">
+					<img src="../images/plants2.jpeg">
+				</figure>
+				<p>New to plant parenthood? A busy work schedule, social life, and general forgetfulness can lead to unintentional plant neglect. It’s okay. Some plants can handle that kind of lifestyle. A jet-setter like yourself will enjoy the resilience of low-maintenance and drought-tolerant succulents, ZZ plants, or snake plants, all pretty low key, as long as they have enough light (bright and low light respectively). These should keep looking their best when you return from your next trip.</p>
+				
+			</article>
+		
+		</div><!--close sidebar div-->
+		<footer>
+		<p><small>House Plants 101</small></p>
+		</footer>
+		
+	</div><!--close wrapper div-->
+	
+</body>
+</html>

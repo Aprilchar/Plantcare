@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+
+	<style type="text/css">	
+		
+		@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Calistoga&family=Montserrat&display=swap');
+	
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+	
+	/*+++++WhiteSpace Styles Here+++++*/
+		
+		body{
+			background-color: #234032;
+			font-family: montserrat;
+			
+		}
+	
+		article>p{
+			line-height: 160%;
+		}
+		
+		h1 h2 h3{
+			font-family: cabin;
+			letter-spacing: .05em;
+		}
+		
+		
+		h1{
+			font-size: 2em;
+			font-family: calistoga;
+			color: #8A9690;
+		}
+		
+		h2{
+			font-size: 1.35em;
+			font-weight: bold;
+			
+			
+		}
+		
+			article>h2{
+			padding: 2%;
+		}
+		
+		article>ul{
+			line-height: 160%;
+		}
+		
+		ul{
+			list-style: disc;
+		}
+		
+		header{
+			background-color: #234032;
+			padding: 3%;
+		
+		}
+		
+		header>h2{
+			font-family: playfair;
+			font-weight: lighter;
+			margin: -6px 0 0 25px;
+			color: #e6eae8;
+		} 
+		
+		#wrapper{
+			width: 80.56%;
+			margin: 0 auto;
+			background-color: #8A9690;
+		}
+	
+	
+		
+		nav ul{
+			width: 85.5757575757%;
+			
+			margin: 0 auto;
+			
+		}
+		
+		nav ul li{
+			display: inline;
+			margin-right: 2%;
+		}
+		
+		nav{
+			
+			margin: 0 auto;
+			padding: 1% 0;
+			
+		}
+		
+		#feature{
+			width: 81.3257575757575%;
+			margin: 3% auto 4% auto;
+			padding: 1.5% 2.25% 3.5% 2.25%;
+			background-color: #e6eae8;
+			overflow: hidden;
+	
+		}
+		
+		.feature-img{
+			float: left;
+			width: 40%;
+		}
+		
+		.feature-text{
+			float: left;
+			width: 58%;
+			margin-left: 2%;
+			font-family: cabin;
+			font-size: 1.2em;
+			line-height: 120%;
+			letter-spacing: .05em;
+		}
+		
+		#main-content{
+			width: 59.3939393939%;
+			float: left;
+			margin: 2%;
+		}
+		
+		.main-figure{
+			width: 32.50478;
+			margin-right: 09.56022944%;
+			float: right;
+		}
+		
+		#sidebar{
+			width: 32.6060606060%;
+			float: left;
+			margin: 2%;
+		}
+		
+		.side-figure{
+			width: 88.0794701986755%;
+			margin: 0 auto;
+			padding-bottom: 2%;
+		}
+		
+		figure img{
+			max-width: 100%;
+		}
+		
+		
+		
+		footer{
+			clear: left;
+			padding: 2%;
+		}
+		
+		footer p{
+			margin: 0;
+		}
+		
+		/*type styles*/
+		
+		#feature h2{
+			margin-bottom: 4%;
+			
+		}
+		
+		p{
+			margin: 2.5% 0;
+			
+		}
+		
+		figcaption{
+			font-family: cabin;
+			margin: 3%;
+		}
+		
+		#sidebar figcaption{
+			margin-bottom: 3%;
+		}
+		
+		cite {
+		  font-style: italic;
+		}
+		
+		
+		
+		
+		a{
+			color: #234032;
+			
+		}
+		
+	
+		
+		
+	/*nav styles here*/		
+		#navlist
+	{
+	margin: 0;
+	padding: 0 0 20px 10px;
+	border-bottom: 1px solid #000;
+	background-color: #234032;
+	}
+
+	#navlist ul, #navlist li
+	{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+	#navlist a:link, #navlist a:visited
+	{
+	float: left;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 4px 10px;
+	text-decoration: none;
+	color: #999;
+	}
+
+	#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+	{
+	border-bottom: 4px solid #000;
+	padding-bottom: 2px;
+	background: transparent;
+	color: #e6eae8;
+	}
+
+	#navlist a:hover { color: #e6eae8; }
+		
+	</style>	
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>House Plants</h1>
+				<h2>a guide on caring for your plants</h2>
+		</header>
+	
+		
+		<div id="navcontainer">
+	<ul id="navlist">
+	<li><a href="page1.html">Home</a></li>
+	<li><a href="page2.html">Light</a></li>
+	<li><a href="page3.html">Watering</a></li>
+	<li><a href="page4.html">Fertilizer</a></li>
+	<li id="active"><a href="page5.html" id="current">Cleaning</a></li>
+	</ul>
+		</div><!--close nav container div-->
+		
+			<figure>
+			<img src="../images/photo-1592150621744-aca64f48394a.avif" />
+		</figure>
+		
+		<div id="main-content">
+			<article>
+				<h2>How to clean houseplants</h2>
+			
+						
+			<p>
+				<ul>
+			<li>Dust plants lightly with a disposable electrostatic or reusable microfiber cloth. Next, wipe both sides of leaves with a soft cloth dipped in lukewarm water.</li>
+			<li>Plants that like partial shade or moderate light do best in east- and west-facing windows (examples are ficus, phildendrons, monstera, and bromeliads).</li>
+			<li>To remove heavy dirt, mix roughly ¼ teaspoon dish detergent in 1 quart of lukewarm water. Spray the plant, then rinse off. This is best done outdoors in the shade or on a cloudy day. To tackle cleaning larger plants indoors, place plants in the shower. Elevate them on a stool so you can turn them easily to clean all sides.</li>
+			<li>Most houseplants grown for their flowers need to be within three feet of a bright window (examples: African violets, gardenias, orchids).</li>
+			<li>Hold small plants upside down and swish in a bucket of lukewarm water (add soap if needed). Contain soil by placing aluminum foil or plastic wrap over soil.</li>
+			<li>To give leaves a high gloss, use a professional leaf shine product.</li>
+				</ul>
+			</p>
+			
+			<p><cite>How to clean your houseplants</cite> by Bio Advanced.</p>
+					<a href="https://bioadvanced.com/how-clean-your-houseplants#:~:text=Dust%20plants%20lightly%20with%20a,the%20plant%2C%20then%20rinse%20off.">More about plant cleaning here</a>
+				
+			</article>
+				
+			
+		</div>
+		
+		<div id="sidebar">
+			<article>
+			
+			<figure class="side-figure">
+					<img src="../images/photo-1518335935020-cfd6580c1ab4.avif">
+				</figure>
+				<h2>Why you should clean houseplants</h2>
+				<p>Plants use sunshine to conduct photosynthesis, the metabolic process that keeps them alive. Dusty, grimy layers on leaves limit the amount of light leaves receive. A dirty leaf surface also provides easy footing for diseases and can help hide insects.
+				Cleaning leaves does more than make plants look good. It fuels their health and can limit pests and diseases.</p>
+				
+			</article>
+		
+		</div><!--close sidebar div-->
+		<footer>
+		<p><small>House Plants 101</small></p>
+		</footer>
+		
+	</div><!--close wrapper div-->
+	
+</body>
+</html>

@@ -1,0 +1,392 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+
+	<style type="text/css">	
+		
+		@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Calistoga&family=Montserrat&display=swap');
+	
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+	
+	/*+++++WhiteSpace Styles Here+++++*/
+		
+		body{
+			background-color: #234032;
+			font-family: montserrat;
+			
+		}
+	
+		article>p{
+			line-height: 160%;
+		}
+		
+		article>ul{
+			line-height: 160%;
+			padding: 4%;
+		}
+		
+		article>h2{
+			padding: 2%;
+		}
+		
+		h1 h2 h3{
+			font-family: cabin;
+			letter-spacing: .05em;
+		}
+		
+		
+		h1{
+			font-size: 2em;
+			font-family: calistoga;
+			color: #8A9690;
+		}
+		
+		h2{
+			font-size: 1.35em;
+			font-weight: bold;
+			
+		}
+		
+			article>h2{
+			padding: 2%;
+		}
+		
+			ul{
+			list-style: disc;
+		}
+		
+		
+		header{
+			background-color: #234032;
+			padding: 3%;
+		
+		}
+		
+		header>h2{
+			font-family: playfair;
+			font-weight: lighter;
+			margin: -6px 0 0 25px;
+			color: #e6eae8;
+		} 
+		
+		#wrapper{
+			width: 80.56%;
+			margin: 0 auto;
+			background-color: #8A9690;
+		}
+	
+	
+		
+		nav ul{
+			width: 85.5757575757%;
+			
+			margin: 0 auto;
+			
+		}
+		
+		nav ul li{
+			display: inline;
+			margin-right: 2%;
+		}
+		
+		nav{
+			
+			margin: 0 auto;
+			padding: 1% 0;
+			
+		}
+		
+		#feature{
+			width: 81.3257575757575%;
+			margin: 3% auto 4% auto;
+			padding: 1.5% 2.25% 3.5% 2.25%;
+			background-color: #e6eae8;
+			overflow: hidden;
+	
+		}
+		
+		.feature-img{
+			float: left;
+			width: 20%;
+		}
+		
+		.feature-text{
+			float: left;
+			width: 58%;
+			margin-left: 2%;
+			font-family: cabin;
+			font-size: 1.1em;
+			line-height: 120%;
+			letter-spacing: .05em;
+			
+		}
+		
+		#main-content{
+			width: 59.3939393939%;
+			float: left;
+			margin: 2%;
+		}
+		
+		.main-figure{
+			width: 32.50478;
+			margin-right: 09.56022944%;
+			float: right;
+		}
+		
+		#sidebar{
+			width: 32.6060606060%;
+			float: left;
+			margin: 2%;
+		}
+		
+		.side-figure{
+			width: 88.0794701986755%;
+			margin: 0 auto;
+			padding-bottom: 2%;
+		}
+		
+		figure img{
+			max-width: 100%;
+		}
+		
+		figure{
+			
+		}
+		
+		footer{
+			clear: left;
+			padding: 2%;
+		}
+		
+		footer p{
+			margin: 0;
+		}
+		
+		/*type styles*/
+		
+		#feature h2{
+			margin-bottom: 4%;
+			
+		}
+		
+		p{
+			margin: 2.5% 0;
+			
+		}
+		
+		figcaption{
+			font-family: cabin;
+			margin: 3%;
+		}
+		
+		#sidebar figcaption{
+			margin-bottom: 3%;
+		}
+		
+		blockquote{
+		font-size: 1.5em;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		line-height: 1.5em;
+		margin: 4% 0 4% 6%;
+		background-color: #e6eae8;
+		padding: 4%;
+		border-left: 10px solid #234032; 
+		color: #234032;
+		}
+	
+	blockquote:before{
+		vertical-align: -.35em;
+		line-height: 0em;
+		content:"\201C";
+		font-size: 4em;
+			
+		}
+		
+		cite {
+		  font-style: italic;
+		}
+		
+		a{
+			color: #234032;
+			
+		}
+		
+	/*nav styles here*/	
+		
+		#navlist
+	{
+	margin: 0;
+	padding: 0 0 20px 10px;
+	border-bottom: 1px solid #000;
+	background-color: #234032;
+	}
+
+	#navlist ul, #navlist li
+	{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+	#navlist a:link, #navlist a:visited
+	{
+	float: left;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 4px 10px;
+	text-decoration: none;
+	color: #999;
+	}
+
+	#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+	{
+	border-bottom: 4px solid #000;
+	padding-bottom: 2px;
+	background: transparent;
+	color: #e6eae8;
+	}
+
+	#navlist a:hover { color: #e6eae8; }
+		
+	</style>	
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>House Plants</h1>
+				<h2>a guide on caring for your plants</h2>
+		</header>
+	
+		
+		<div id="navcontainer">
+	<ul id="navlist">
+	<li><a href="page1.html">Home</a></li>
+	<li><a href="page2.html">Light</a></li>
+	<li id="active"><a href="page3.html" id="current">Watering</a></li>
+	<li><a href="page4.html">Fertilizer</a></li>
+	<li><a href="page5.html">Cleaning</a></li>
+	</ul>
+		</div><!--close nav container div-->
+		
+	<div id="feature">
+			<h2>Watering 101</h2>
+			<img src="../images/photo-1545165375-149765f1b8e4.avif" class="feature-img"/>
+			<p class="feature-text">Believe it or not, more houseplants die from overwatering than from anything else! Most houseplants can not tolerate soil that is always wet. Some succulent plants (such as cacti or jade) can survive a month or two without watering. Learn the preferences of your plants. 
+			<br>
+			<br>
+			The first step, of course, is to ensure the bottom of your pot has drainage holes. Otherwise, you will need to repot the plant into a pot that does provide sufficient drainage. If a plant sits in wet soil for too long, it can develop root rot and die!</p>
+		</div><!--close main div-->		
+		
+		<div id="main-content">
+			<article>
+				<h2>When to Water</h2>
+				<figure class="main-figure">
+					<img src="../images/photo-1597868067509-74889293101f.avif">
+					<figcaption>
+						<p>plants getting watered</p>
+					</figcaption>
+				</figure>
+			
+		<p>
+			<ul>
+			<li>Starting in late fall, water houseplants sparingly until daylight hours begin to increase in the new year.</li>
+			<li>The best time of day to water is in the morning, except when it is cloudy or rainy outside and there will no sunlight. Avoid watering on a fixed schedule; instead, check the soil and water when needed.</li>
+			<li>Water when the roots, in the lower two-thirds of potted soil, begin to dry. Push your finger 2 inches down into the soil of a 6-inch-diameter pot. If the soil feels moist, do not water. Repeat until the soil feels dry, then water. Push you finger to a 1-inch depth in smaller pots. (If it is not possible to push your finger into the soil, the soil may be compacted and need porous material or the plant may be root-bound and could benefit from being transplanted.) Alternatively, lift the potted plant when it is dry and then again when it is wet. You may learn to “feel” its needs.</li>
+			<li>Starting in late fall, water houseplants sparingly until daylight hours begin to increase again in the new year.</li>
+			<li>Water houseplants in unglazed clay pots more frequently, as the porous clay will absorb and evaporate some of the water.</li>
+			</ul>
+		</p>
+			
+			
+				<blockquote>
+				You need to nourish for your plants for them to flourish.
+				</blockquote>
+			
+			<p><cite>Houseplant Care Guide</cite> by Almanac.</p>
+				<a href="https://www.almanac.com/content/houseplant-care-guide" >More on houseplant care here</a>
+		
+				
+			</article>
+				
+			
+		</div>
+		
+		<div id="sidebar">
+			<article>
+			<h2>How to Water</h2>
+			<figure class="side-figure">
+					<img src="../images/photo-1497990571654-77aa8ec36038.avif">
+				</figure>
+				<p>
+			<ul>
+			<li>Water plants with room-temperature water. Cold water can be a shock to a houseplant’s roots—like sticking your toes into an ice bath!</li>
+			<li>Always water until the excess water drains out of the holes. Even plants that prefer dry soil should be watered this way (just not as frequently).</li>
+			<li>Water gently over the top of the soil; avoid water on the plant leaves or crown. A long-spouted watering can works best.</li>
+			<li>If water is not almost immediately absorbed by the soil, drainage is poor. Mix perlite, vermiculite, or sand into the soil. For best results, remove and repot the plant in the amended soil, if possible.</li>
+			<li>Watering from the bottom can benefit plants, too. Set a plant pot (that has holes in the bottom) on a saucer or in a shallow pan. Pour water into the saucer or pan to about an inch depth. Add more water as necessary until the surface of the soil in the pot is moist. Remove the plant from the saucer or pan and set it aside to let excess moisture run out.</li>
+			<li>If the soil is exceptionally dry, water may not be absorbed but instead flow rapidly down the sides of the pot and out into the catch basin/saucer, bringing no moisture to the plant’s roots. If this happens, submerge the whole pot in a deep sink or pail full of water until air bubbles stop being released. Remove the plant from the water and set it aside to let excess moisture run out. Consider repotting the plant into a looser medium mix.</li>
+			</ul>
+		</p>
+				
+			</article>
+		
+		</div><!--close sidebar div-->
+		<footer>
+		<p><small>House Plants 101</small></p>
+		</footer>
+		
+	</div><!--close wrapper div-->
+	
+</body>
+</html>

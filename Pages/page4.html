@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+
+	<style type="text/css">	
+		
+		@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Calistoga&family=Montserrat&display=swap');
+	
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+	
+	/*+++++WhiteSpace Styles Here+++++*/
+		
+		body{
+			background-color: #234032;
+			font-family: montserrat;
+			
+		}
+	
+		article>p{
+			line-height: 160%;
+		}
+		
+		article>h2 h3{
+			padding: 2%;
+		}
+		
+			article>h2{
+			padding: 2%;
+		}
+		
+		 h2 h3{
+			font-family: cabin;
+			letter-spacing: .05em;
+		}
+		
+		
+		h1{
+			font-size: 2em;
+			font-family: calistoga;
+			color: #8A9690;
+		}
+		
+		h2{
+			font-size: 1.35em;
+			font-weight: bold;
+			
+		}
+		
+		
+		h3{
+			
+			font-size: 1.1em;
+			font-weight: bold;
+		}
+		
+		
+		header{
+			background-color: #234032;
+			padding: 3%;
+		
+		}
+		
+		header>h2{
+			font-family: playfair;
+			font-weight: lighter;
+			margin: -6px 0 0 25px;
+			color: #e6eae8;
+		} 
+		
+		#wrapper{
+			width: 80.56%;
+			margin: 0 auto;
+			background-color: #8A9690;
+		}
+	
+	
+		
+		nav ul{
+			width: 85.5757575757%;
+			margin: 0 auto;
+			
+		}
+		
+		nav ul li{
+			display: inline;
+			margin-right: 2%;
+		}
+		
+		nav{
+			
+			margin: 0 auto;
+			padding: 1% 0;
+			
+		}
+		
+		#feature{
+			width: 81.3257575757575%;
+			margin: 3% auto 4% auto;
+			padding: 1.5% 2.25% 3.5% 2.25%;
+			background-color: #e6eae8;
+			overflow: hidden;
+	
+		}
+		
+		.feature-img{
+			float: left;
+			width: 40%;
+		}
+		
+		.feature-text{
+			float: left;
+			width: 58%;
+			margin-left: 2%;
+			font-family: cabin;
+			font-size: 1.2em;
+			line-height: 120%;
+			letter-spacing: .05em;
+		}
+		
+		#main-content{
+			width: 59.3939393939%;
+			float: left;
+			margin: 2%;
+		}
+		
+		.main-figure{
+			width: 80%;
+			margin: 10% 10%;
+		}
+		
+		#sidebar{
+			width: 32.6060606060%;
+			float: left;
+			margin: 2%;
+		}
+		
+		.side-figure{
+			width: 88.0794701986755%;
+			margin: 0 auto;
+			padding-bottom: 2%;
+		}
+		
+		figure img{
+			max-width: 100%;
+		}
+		
+		figcaption{
+			background-color: #e6eae8;
+			
+		}
+		
+		
+		footer{
+			clear: left;
+			padding: 2%;
+		}
+		
+		footer p{
+			margin: 0;
+		}
+		
+		/*type styles*/
+		
+		#feature h2{
+			margin-bottom: 4%;
+			
+		}
+		
+		p{
+			margin: 2.5% 0;
+			
+		}
+		
+		figcaption{
+			font-family: cabin;
+			padding: .12%;
+		}
+		
+		#sidebar figcaption{
+			margin-bottom: 3%;
+		}
+	
+				cite {
+		  font-style: italic;
+		}
+		
+		a{
+			color: #234032;
+			
+		}
+		
+		/*nav styles here*/	
+		
+		#navlist
+	{
+	margin: 0;
+	padding: 0 0 20px 10px;
+	border-bottom: 1px solid #000;
+	background-color: #234032;
+	}
+
+	#navlist ul, #navlist li
+	{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+
+	#navlist a:link, #navlist a:visited
+	{
+	float: left;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 4px 10px;
+	text-decoration: none;
+	color: #999;
+	}
+
+	#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+	{
+	border-bottom: 4px solid #000;
+	padding-bottom: 2px;
+	background: transparent;
+	color: #e6eae8;
+	}
+
+	#navlist a:hover { color: #e6eae8; }
+		
+	</style>	
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>House Plants</h1>
+				<h2>a guide on caring for your plants</h2>
+		</header>
+	
+		
+		<div id="navcontainer">
+	<ul id="navlist">
+	<li><a href="page1.html">Home</a></li>
+	<li><a href="page2.html">Light</a></li>
+	<li><a href="page3.html">Watering</a></li>
+	<li id="active"><a href="page4.html" id="current">Fertilizer</a></li>
+	<li><a href="page5.html">Cleaning</a></li>
+	</ul>
+		</div><!--close nav container div-->
+		
+		
+		
+		<div id="feature">
+			<h2>What’s in houseplant fertilizer?</h2>
+			<img src="../images/Screenshot 2023-09-19 at 5.20.12 PM.png" class="feature-img"/>
+			<p class="feature-text">Most houseplant fertilizers contain a mixture of both macro- and micronutrients. The three primary macronutrients, nitrogen, phosphorous, and potassium, found in a container of fertilizer are listed as a ratio on the front of the bottle or bag. Called the N-P-K ratio, these numbers tell you the percentage of each of those nutrients inside the container.<br>
+			<br>
+			Using a fertilizer formulated specifically for houseplants is a must. That should be the first thing you look for when purchasing houseplant fertilizer. It should say “for houseplants” somewhere on the packaging.
+			</p>
+		</div><!--close main div-->
+		
+		<div id="main-content">
+			<article>
+				<h2>Types of houseplant fertilizer</h2>
+				
+			
+				<p>Now that you know when to fertilize houseplants and what nutrients houseplant fertilizers should contain, it’s time to look at the different types of houseplant fertilizer to determine which one is right for you.</p>
+				
+				<br>
+					<h3>Liquid houseplant fertilizer</h3>
+				
+				<p>They need to be used a bit more frequently than granular fertilizer, but organic liquid houseplant fertilizers are my personal favorites. Brands like Grow!, Espoma’s Indoor Houseplants, Liquid Love, and Jobes Water-soluable All-Purpose Fertilizer contain ingredients derived from plants and animals, as well as from mined minerals. Liquid fertilizers also come with a reduced risk of fertilizer burn. Another benefit of using liquid fertilizers made from naturally-occurring ingredients is that in addition to providing a houseplant with nutrients, they also act as growth enhancers. They are full of dozens of micronutrients, trace elements, vitamins, amino acids, and plant hormones, each of which plays a vital role in the health and vigor of your houseplants.</p>
+				<br>
+				<p>Organic liquid houseplant fertilizers are made from liquid kelp, fish emulsion, compost tea, worm tea, liquid bone meal, rock phosphate, plant extracts, and humic acids, to name just a few.
+				</p>
+				<br>
+					<h3>Granular houseplant fertilizer</h3>
+				
+				<p>Granular fertilizers for houseplants are found in one of two formulations: as loose, granular pellets or as compressed fertilizer “spikes.” Pelletized granular fertilizers for houseplants, such as Organic Plant Magic and Be-1, are sprinkled on the surface of the soil. Compressed fertilizer “spikes,” such as Jobes Organic and EarthPods, are pushed down into the soil to come in close contact with plant roots.</p>
+				<br>
+				<p>The best pelletized and compressed granular houseplant fertilizers are made from naturally derived ingredients. These include dehydrated worm castings, bone meal, blood meal, sulfate of potash, limestone, rock phosphate, and other animal-, mineral-, and plant-based ingredients. Synthetic chemical-based granular fertilizers are available for houseplants, too, though I avoid them. A quick check of the ingredient list on the label tells you what the fertilizer is made from. If you don’t see any ingredient list at all, it’s a synthetic fertilizer.</p>
+				
+				<p><cite>Houseplant fertilizer basics</cite> by Savvy Gardening.</p>
+					<a href="https://www.thesill.com/blog/top-ten-plant-care-tips">More on fertilizer here</a>
+			
+			</article>
+				
+			
+		</div>
+		
+		
+		<div id="sidebar">
+			<article>
+			
+			<figure class="side-figure">
+					<img src="../images/photo-1517466472550-9d1f40614caa.avif">
+				</figure>
+				<h2>When to feed houseplants</h2>
+				<p>Houseplants wilt when they need water. Their leaves grow pale and lanky when they aren’t getting enough sunlight. When the humidity is too low, they turn crispy; when it’s too high, they may develop rot. But, knowing when your houseplants need to be fertilized is far trickier. There’s no clear signal from your plant that shouts “Hey, it’s time to feed me!”, other than perhaps slowed or stagnant growth, which for many houseplant parents, is barely noticed. So, instead of waiting for a signal from the plant, you’ll have to take matters into your own hands and use houseplant fertilizer on a schedule that’s based on their growing cycle.</p>
+				
+			</article>
+		
+		</div><!--close sidebar div-->
+		
+			
+		
+		<footer>
+		<p><small>House Plants 101</small></p>
+		</footer>
+		
+	</div><!--close wrapper div-->
+	
+</body>
+</html>
